@@ -26,9 +26,7 @@ if ( ! class_exists( 'Variations' ) ) {
 		 * 
 		 * @param html @html whole html of product page
 		 * @param array @args array of dropdown values
-		 * 
-		 * @return html @html whole html of product page
-		 * @return @html.$radios whole html with switches redio button
+		 * @return html 
 		 * 
 		 */
 

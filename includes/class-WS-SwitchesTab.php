@@ -24,11 +24,9 @@ if ( ! class_exists( 'WS_SwitchesTab' ) ) {
 		}
 
 		/**
-		 *  Creating Switches Tab in Variable Product (Admin Page)
-		 * 
-		 * @param array $swithces_data_tabs this argument have tab details.
-		 * 
-		 * @return array $swithces_data_tabs return with new switches tab
+		 * Creating Switches Tab in Variable Product (Admin Page)
+		 * @param array $swithces_data_tabs this argument have tab details. 
+		 * @return array
 		 */
 
 		public function WS_creating_switches_tab( $swithces_data_tabs ) {		
@@ -65,9 +63,7 @@ if ( ! class_exists( 'WS_SwitchesTab' ) ) {
 	
 		/**
 		 * Saving value of Checkbox in Database
-		 * 
 		 * @param int @post_id id of post in product page
-		 * 
 		 */
 
 		public function WS_switches_value_saving( $post_id ) {

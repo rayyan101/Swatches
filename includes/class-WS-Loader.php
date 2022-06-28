@@ -16,7 +16,7 @@ if ( ! class_exists( 'WS_Loader' ) ) {
 	class WS_Loader {
 
 		/**
-		 *  Constructor.
+		 * Constructor.
 		 */
 
 		public function __construct() {
