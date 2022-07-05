@@ -1,5 +1,4 @@
-<?php 
-
+<?php
 /**
  * Plugin Name:       Woocommerce Switches
  * Description:       Applying Switches on Variable Product
@@ -7,6 +6,8 @@
  * Author:            Codup
  * Author URI:        https://codup.co
  * License:           GPL v2 or later
+
+ * @package           Woocommerce Switches
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -18,12 +19,12 @@ if ( ! defined( 'WS_PLUGIN_DIR' ) ) {
 }
 
 if ( ! defined( 'WS_PLUGIN_DIR_URL' ) ) {
-	define( 'WS_PLUGIN_DIR_URL', plugin_dir_url( __FILE__ ));
+	define( 'WS_PLUGIN_DIR_URL', plugin_dir_url( __FILE__ ) );
 }
 
 if ( ! defined( 'WS_ABSPATH' ) ) {
 	define( 'WS_ABSPATH', dirname( __FILE__ ) );
 }
 
-	include_once WS_ABSPATH . '/includes/class-WS-loader.php';
-?>
+	require_once WS_ABSPATH . '/includes/class-WS-loader.php';
+
